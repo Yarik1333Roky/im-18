@@ -1,0 +1,62 @@
+.header {
+  margin: 15px;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.first-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  font-weight: 500;
+  background-color: rgb(35 35 35);
+  border: 1px solid black;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.216));
+  box-shadow: inset 0 0 3px black;
+  border-radius: 18px;
+  width: fit-content;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  user-select: none;
+}
+
+.main-header {
+  font-size: 25px;
+  padding: 5px 25px;
+  background-color: rgb(35 35 35);
+  border: 1px solid black;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.216));
+  box-shadow: inset 0 0 3px black;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.header-border {
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 1px;
+  background-color: gray;
+  height: 80%;
+}
+
+.second-header {
+  padding: 15px;
+  width: fit-content;
+  background-color: rgb(35 35 35);
+  border: 1px solid black;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.216));
+  box-shadow: inset 0 0 3px black;
+  border-radius: 18px;
+}
+
+.params {
+  height: 100%;
+}
